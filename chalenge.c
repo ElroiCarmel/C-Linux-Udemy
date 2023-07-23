@@ -10,5 +10,12 @@ int main()
     printf("%.1f\n", 12.0/5.0);
     printf("The remainder of %d %% %d is %d \n",5,2,5%2);
     printf("Hey // Alpha \n");
+    printf("**********\n");
+    printf("**********\n");
+    printf("**********\n");
+    printf("**********\n");
+    printf("**********\n");
+    printf("\n1********\n12*******\n123******\n1234*****\n12345****\n");
+    printf("The current year is %d, my age is %d, so the year i was born is %d\n", 2023, 26, 2023-26);
     return 0;
 }
