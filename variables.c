@@ -13,6 +13,6 @@ int main()
     scanf("%d", &grade2);
     double ave;
     ave = (grade1+grade2)/2.0;
-    printf("The average is: %.2f\n", ave);
+    printf("The average is: %f\n", ave);
     return 0;
 }
