@@ -3,19 +3,16 @@
 
 int main()
 {
-    char c, c2;
-    int chardec;
+    char c;
     printf("Enter a character: ");
     scanf("%c", &c);
-    chardec = (int) c;
-    if (chardec >= (int) 'a' && chardec <= (int) 'z')
+    if (c >= 'a' && c <= 'z')
         printf("Lower case\n");
-    else if (chardec >= (int) 'A' && chardec <= (int) 'Z')
+    else if (c >= 'A' && c <= 'Z')
         printf("Upper case\n");
-    else if (chardec >= (int) '0' && chardec <= (int) '9')
+    else if (c >= '0' && c <= '9')
         printf("Digit\n");
     else
         printf("Other\n");
-    printf("Enter a second character: ");
     return 0;
 }
