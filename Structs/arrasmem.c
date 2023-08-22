@@ -24,15 +24,15 @@ int main()
     printf("Address emp1: %p\n", &emp1);
     printf("Address emp2: %p\n", &emp2);
 
-    Employee *po = &emp1;
+    // Employee *po = &emp1;
 
-    if (&emp1 == po)
-    {
-        printf("True\n");
-    } else
-     {
-        printf("False\n");
-    }
+    // if (&emp1 == po)
+    // {
+    //     printf("True\n");
+    // } else
+    //  {
+    //     printf("False\n");
+    // }
 
     // Making sure the copy was by-value and not just by-reference by changing emp2
     strcpy(emp2.name, "Jake");
